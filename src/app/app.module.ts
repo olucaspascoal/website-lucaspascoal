@@ -10,6 +10,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContatoComponent } from './contato/contato.component';
 import { FooterComponent } from './footer/footer.component';
 import { ErroComponent } from './erro/erro.component';
+import { MainComponent } from './main/main.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ErroComponent } from './erro/erro.component';
     PortfolioComponent,
     ContatoComponent,
     FooterComponent,
-    ErroComponent
+    ErroComponent,
+    MainComponent
   ],
   imports: [
     BrowserModule,

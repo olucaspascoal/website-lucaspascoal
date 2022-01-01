@@ -1,0 +1,20 @@
+.sobre h2{
+    text-align: center;
+    font-weight: 700;
+}
+.sobre-box{
+    display: flex;
+    justify-content: space-between;
+}
+.sobre-box .sobre-box-esq{
+    width: 60%;
+}
+.sobre-box .sobre-box-esq p{
+    font-weight: 400;
+    color: var(--color-gray);
+}
+
+.sobre-box-dir img{
+    height: auto;
+    width: 70%;
+}

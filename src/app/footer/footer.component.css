@@ -1,0 +1,17 @@
+footer{
+    font-family: 'DM Sans', sans-serif;
+    background-color: var(--color-dark);
+    margin: 3rem 0 0 ;
+    padding: 0;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer a{
+    text-decoration: none;
+}
+footer span{
+    margin-left: .5rem;
+    color: var(--color-blue);
+}

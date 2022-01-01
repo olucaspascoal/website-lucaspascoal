@@ -1,1 +1,38 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono&display=swap');
+
+:root{
+    --color-white:  #F9F9F9;
+    --color-white-1:#EDEDED;
+    --color-black:  #322D2D;
+    --color-gray:   #828282;
+    --color-blue:   #1EA0FF;
+    --color-dark:   #433C3C;
+}
+
+body{  
+    color: var(--color-white);
+    margin: 0;
+    background-color: var(--color-black);
+    /* pointer-events: none; */
+}
+
+img{
+    pointer-events: none;
+}
+
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-track {
+    background: var(--color-black); 
+    border-radius: 15px;
+}
+::-webkit-scrollbar-thumb {
+    background: var(--color-blue); 
+    border-radius: 15px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #1A6DA9; 
+}
