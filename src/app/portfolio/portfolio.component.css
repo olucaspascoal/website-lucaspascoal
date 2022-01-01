@@ -49,3 +49,6 @@
     color: var(--color-blue);
     text-decoration: none;
 }
+.portfolio-vermais a:hover{
+    cursor: pointer;
+}

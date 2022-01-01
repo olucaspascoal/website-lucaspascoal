@@ -11,6 +11,9 @@ footer{
 footer a{
     text-decoration: none;
 }
+footer a span:hover{
+    cursor: pointer;
+}
 footer span{
     margin-left: .5rem;
     color: var(--color-blue);

@@ -27,6 +27,9 @@
 .contato-box-item a{
     text-decoration: none;
 }
+.contato-box-item:hover, .contato-box-item a img:hover, .contato-box-item a h3:hover, .contato-box-item a span:hover{
+    cursor: pointer;
+}
 .contato-box-item h3{
     color: var(--color-white);
     margin-block: 0;
