@@ -32,6 +32,35 @@
 
 } */
 .inicio-dir img{
-    height: 50vh;
-    width: auto;
+    height: auto;
+    width: 90%;
+}
+
+@media only screen and (max-width: 760px) {
+    .inicio{
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: center;
+    }
+    .inicio-esq h2{
+        font-size: 1.5rem;
+    }
+    .inicio-esq p{
+        font-size: 1rem;
+    }
+    .inicio-dir{
+        order: 1;
+        margin-top: 1.5rem;
+        margin-right: auto;
+        margin-left: auto;
+        width: 70%;
+    }
+    .inicio-esq{
+        order: 2;
+        width: 100%;
+    }
+    .inicio-btn{
+        margin: auto;
+    }
 }

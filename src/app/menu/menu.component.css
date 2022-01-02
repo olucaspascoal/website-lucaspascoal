@@ -31,5 +31,7 @@
     .menu-dir{
         display: none;
     }
-
+    .menu{
+        justify-content: center;
+    }
 }

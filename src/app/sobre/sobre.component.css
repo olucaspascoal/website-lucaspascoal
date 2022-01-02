@@ -18,3 +18,16 @@
     height: auto;
     width: 70%;
 }
+
+@media only screen and (max-width: 760px){
+    .sobre{
+        margin-top: 3rem;
+    }
+    .sobre-box .sobre-box-esq{
+        width: 100%;
+        text-align: justify
+    }
+    .sobre-box-dir{
+        display: none;
+    }
+}
