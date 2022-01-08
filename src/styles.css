@@ -20,9 +20,9 @@ body{
     /* pointer-events: none; */
 }
 
-img{
-    /* pointer-events: none; */
-}
+/* img{
+    pointer-events: none;
+} */
 
 
 ::-webkit-scrollbar {
@@ -83,3 +83,9 @@ img{
      transform: translate(-50%, -50%) scale(7);  
     }  
 }  
+
+@media only screen and (max-width: 760px){
+    .cursor{
+        display: none;
+    }
+}
